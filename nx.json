@@ -25,6 +25,9 @@
     "kepler-webapp-e2e": {
       "tags": [],
       "implicitDependencies": ["kepler-webapp"]
+    },
+    "material": {
+      "tags": []
     }
   }
 }
