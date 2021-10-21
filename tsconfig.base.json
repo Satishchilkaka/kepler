@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@kepler/material": ["libs/material/src/index.ts"]
+      "@kepler/material": ["libs/material/src/index.ts"],
+      "@kepler/core-data": ["libs/core-data/src/index.ts"],
+      "@kepler/ui-login": ["libs/ui-login/src/index.ts"],
+      "@kepler/ui-toolbar": ["libs/ui-toolbar/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
