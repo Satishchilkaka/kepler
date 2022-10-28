@@ -14,7 +14,14 @@
     "default": {
       "runner": "@nrwl/workspace/tasks-runners/default",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e"
+        ],
+        "useDaemonProcess": false,
+        "NX_DAEMON": false
       }
     }
   },
@@ -24,7 +31,9 @@
     },
     "kepler-webapp-e2e": {
       "tags": [],
-      "implicitDependencies": ["kepler-webapp"]
+      "implicitDependencies": [
+        "kepler-webapp"
+      ]
     },
     "material": {
       "tags": []
